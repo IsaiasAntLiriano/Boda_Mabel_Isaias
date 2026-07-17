@@ -109,7 +109,7 @@
 
   .env-back{
     position:absolute; inset:0;
-    background: linear-gradient(160deg, var(--cream), #f2ece0);
+    background: linear-gradient(160deg, #c3cbc1, var(--navy-deep));
     border-radius:6px;
     overflow:hidden;
   }
@@ -117,7 +117,7 @@
     content:"";
     position:absolute; inset:0;
     background:
-      linear-gradient(135deg, transparent 49.3%, rgba(31,59,87,.06) 49.3%, rgba(31,59,87,.06) 50.7%, transparent 50.7%);
+      linear-gradient(135deg, transparent 49.3%, rgba(0,0,0,.08) 49.3%, rgba(0,0,0,.08) 50.7%, transparent 50.7%);
   }
 
   .env-inner-shadow{
@@ -152,21 +152,21 @@
 
   .env-flap-bottom{
     position:absolute; left:0; right:0; bottom:0; height:60%;
-    background: linear-gradient(160deg, #f7f1e6, #ece3d1);
+    background: linear-gradient(160deg, var(--navy), var(--navy-deep));
     clip-path: polygon(0 100%, 100% 100%, 100% 30%, 50% 0%, 0 30%);
     z-index:3;
     border-radius: 0 0 6px 6px;
   }
   .env-flap-left{
     position:absolute; left:0; top:0; bottom:0; width:52%;
-    background: linear-gradient(100deg, #f4ede0, #e9ddc4);
+    background: linear-gradient(100deg, var(--navy), var(--dress-blue));
     clip-path: polygon(0 0, 100% 50%, 0 100%);
     z-index:3;
     opacity:.9;
   }
   .env-flap-right{
     position:absolute; right:0; top:0; bottom:0; width:52%;
-    background: linear-gradient(260deg, #f4ede0, #e9ddc4);
+    background: linear-gradient(260deg, var(--navy), var(--dress-blue));
     clip-path: polygon(100% 0, 0 50%, 100% 100%);
     z-index:3;
     opacity:.9;
@@ -181,7 +181,7 @@
   }
   .env-flap-top-face{
     position:absolute; inset:0;
-    background: linear-gradient(200deg, #fdfaf3, #eee3cb);
+    background: linear-gradient(200deg, #c3cbc1, var(--navy));
     clip-path: polygon(0 0, 100% 0, 50% 100%);
     border-radius: 6px 6px 0 0;
     display:flex;
