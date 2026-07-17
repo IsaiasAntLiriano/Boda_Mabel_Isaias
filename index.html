@@ -726,5 +726,25 @@
   });
 </script>
 
-</body>
+    
+    <!-- AQUÍ DEBE IR TU CÓDIGO -->
+    <audio id="musica-fondo" src="nombre_de_tu_archivo.mp3" loop></audio>
+
+    <script>
+        const sello = document.getElementById('sello'); // Asegúrate que este ID coincida con el de tu sello
+        const musica = document.getElementById('musica-fondo');
+
+        sello.addEventListener('click', () => {
+            // Aquí ya tienes tu lógica para abrir la invitación
+            musica.play().catch(error => {
+                console.log("Esperando interacción del usuario:", error);
+            });
+        });
+    </script>
+    <!-- FIN DEL CÓDIGO NUEVO -->
+
+</body> <!-- Esta etiqueta debe estar al final -->
 </html>
+
+
+
